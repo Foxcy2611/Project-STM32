@@ -1,0 +1,13 @@
+**** Lập trình thanh ghi ************8
+
+- Các ô cắm của Arduino:
++ Digital Pins: 0 -> 7 : PD0 --> PD7;  D
++ Digital Pins: 8 -> 13 : PB0 --> PB5;   B
++ Analog Pins: A0 --> A5 :  PC0;          C
+- Một thanh ghi 8 bit, mỗi bit gọi là 1 PORT
+
+p7	p6	p5	p4	p3	p2	p1	p0
+
+- Cú pháp:
+DDR_tên port = Trạng thái chân port
+Vd: DDRD = B00010000;
